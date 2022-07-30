@@ -278,7 +278,7 @@
       </section>
     </main>
 
-    <footer class="footer">
+        <footer class="footer">
       <div class="container footer-block">
         <div class="footer-container">
           <a href="WebStudio" class="logo">
@@ -308,7 +308,7 @@
           <p class="footer-title">присоединяйтесь</p>
           <ul class="team-svg-list">
             <li>
-              <a href="" class="social-link">
+              <a href="" aria-label="Socialmedia" class="social-link">
                 <svg class="social-link-svg" width="20px" height="20px">
                   <use href="./image/icons.svg#instagram"></use>
                 </svg>
@@ -316,7 +316,7 @@
             </li>
 
             <li>
-              <a href="" class="social-link">
+              <a href="" aria-label="Socialmedia" class="social-link">
                 <svg class="social-link-svg" width="20px" height="20px">
                   <use href="./image/icons.svg#twitter"></use>
                 </svg>
@@ -324,7 +324,7 @@
             </li>
 
             <li>
-              <a href="" class="social-link">
+              <a href="" aria-label="Socialmedia" class="social-link">
                 <svg class="social-link-svg" width="20px" height="20px">
                   <use href="./image/icons.svg#facebook"></use>
                 </svg>
@@ -332,7 +332,7 @@
             </li>
 
             <li>
-              <a href="" class="social-link">
+              <a href="" aria-label="Socialmedia" class="social-link">
                 <svg class="social-link-svg" width="20px" height="20px">
                   <use href="./image/icons.svg#linkedin"></use>
                 </svg>
@@ -340,7 +340,20 @@
             </li>
           </ul>
         </div>
-      </div>
+        
+          <form class="subscribe-form">
+          <p class="subscribe-form-title">Подпишитесь на рассылку</p>
+          <div class="subscribe-form-div">
+            <input type="mail" placeholder="E-mail" class="subscribe-form-input"/>
+          <button type="submit" class="submit-form-btn">Подписаться
+            <svg class="subscribe-form-svg" width="24" height="24">
+            <use href="./image/icons.svg#send"></use>
+            </svg>
+          </button>
+          </div>
+        </div>
+        </form>
+      
     </footer>
   </body>
 </html>
